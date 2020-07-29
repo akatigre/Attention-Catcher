@@ -7,7 +7,8 @@ TEXT2PPTX
 ### HOW TO USE
 *****
 ##### examples
-![Alt text](/Users/yoonk/Documents/서비스사용예시.png "text2pptx example")
+![alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5.png)
+
 ##### pptx
 
 
