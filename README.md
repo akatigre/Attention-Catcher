@@ -3,7 +3,10 @@ TEXT2PPTX
 **Tired of making PowerPoints? This is for you!**
 ---------------------------------------------------
 
-텍2피란 ? 발표 대본을 파워포인트 템플릿으로 매핑해주는 서비스
+TEXT2PPTX : 텍2피란? 발표 대본을 파워포인트 템플릿으로 매핑해주는 서비스
+- 내용 기반 각 슬라이드 도식화
+- 텍스트 주제와 어울리는 피피티 템플릿 및 폰트 추천
+- 키워드 맞춤 이미지 첨부
 
 
 ### HOW TO USE
@@ -29,6 +32,7 @@ TEXT2PPTX
    git clone https://github.com/machinereading/koreanframenet.git
    pip install lexrankr
    pip install textrankr
+   pip install python-pptx
    
    </code></pre> 
   
