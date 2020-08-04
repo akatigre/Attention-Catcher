@@ -36,7 +36,15 @@ TEXT2PPTX : 텍2피란? 발표 대본을 파워포인트 템플릿으로 매핑�
    
    </code></pre> 
   
-### Source
+### Cited
+   frameBERT https://github.com/machinereading/frameBERT
+   BERT extractive summarization https://github.com/dmmiller612/bert-extractive-summarizer
+   
+### Dataset 
+   CNN and Daily Mail **stories** directory https://cs.nyu.edu/~kcho/DMQA/
+   
+   
+   
 
 
 
