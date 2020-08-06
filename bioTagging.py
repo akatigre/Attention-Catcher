@@ -1,1 +1,0 @@
-from koreanframenet import koreanframenet
