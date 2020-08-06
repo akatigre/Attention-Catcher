@@ -1,51 +1,42 @@
 TEXT2PPTX 
 =========
 **Tired of making PowerPoints? This is for you!**
+*Text2PPTX is a service that analyzes your script for presentation and automatically maps it to powerpoint presentation of high quality*
+*텍2피는 발표 대본을 분석하여 자동으로 높은 수준의 파워포인트 프레젠테이션으로 매핑해주는 서비스입니다*
 ---------------------------------------------------
 
-TEXT2PPTX : 텍2피란? 발표 대본을 파워포인트 템플릿으로 매핑해주는 서비스
-- 내용 기반 각 슬라이드 도식화
-- 텍스트 주제와 어울리는 피피티 템플릿 및 폰트 추천
-- 키워드 맞춤 이미지 첨부
+
+      - 내용을 기반으로 하여 파워포인트의 스마트 아트와 도형으로 도식화
+      - 발표 대본의 제목과 소제목을 자동으로 추출하여 텍스트를 파워포인트에 삽입
+      - 텍스트 주제와 어울리는 피피티 템플릿 및 이미지 추천
 
 
-### HOW TO USE
-*****
+
+### Interactive Web Page for Text2PPTX is coming soon!!
+
+
 #### examples
-![alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%82%AC%EC%9A%A9%EC%98%88%EC%8B%9C.png)
+![alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%82%AC%EC%9A%A9%EC%98%88%EC%8B%9C.png=250x250)
 
 
-### Dependencies
-*****
-
-
+#### Dependencies
 <pre><code>
    pip install pytorch torchvision -c pytorch (MAC OS)
    pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html (WINDOWS)
-   pip install spacy==2.1.3
    pip install transformers==2.2.2
    pip install neuralcoref
    pip install bert-extractive-summarizer
-   apt-get update
-   apt-get install g++ openjdk-8-jdk 
-   pip3 install konlpy
-   git clone https://github.com/machinereading/koreanframenet.git
-   pip install lexrankr
-   pip install textrankr
    pip install python-pptx
    
    </code></pre> 
   
-### Cited
+#### Cited
    frameBERT https://github.com/machinereading/frameBERT
    BERT extractive summarization https://github.com/dmmiller612/bert-extractive-summarizer
    
-### Dataset 
-   CNN and Daily Mail **stories** directory https://cs.nyu.edu/~kcho/DMQA/
+#### Dataset used for BERTsum finetuning
+   Naver News Crawling
+   Presentation Scripts
    
    
    
-
-
-
-   고려대학교 데이터 청년 캠퍼스 10조
