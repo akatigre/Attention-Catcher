@@ -1,9 +1,11 @@
 TEXT2PPTX 
 =========
 **Tired of making PowerPoints? This is for you!**
-*Text2PPTX is a service that analyzes your script for presentation and automatically maps it to powerpoint presentation of high quality*
-*텍2피는 발표 대본을 분석하여 자동으로 높은 수준의 파워포인트 프레젠테이션으로 매핑해주는 서비스입니다*
 ---------------------------------------------------
+
+      Text2PPTX is a service that analyzes your script for presentation and automatically maps it to powerpoint presentation of high quality
+      텍2피는 발표 대본을 분석하여 자동으로 높은 수준의 파워포인트 프레젠테이션으로 매핑해주는 서비스입니다
+
 
 
       - 내용을 기반으로 하여 파워포인트의 스마트 아트와 도형으로 도식화
