@@ -21,10 +21,11 @@ TEXT2PPTX
 ![alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%82%AC%EC%9A%A9%EC%98%88%EC%8B%9C.png)
 
 #### Dataset collected for BERTsum finetuning
-   Naver News Crawling
-      정치, 사회, 연예 분야의 뉴스를 크롤링하여 요약을 위한 라벨링을 함
-   Presentation Scripts
-      약 30건의 대본을 수집하여 문단별로 요약을 위한 라벨링을 함 / Total instances: ~300
+       Naver News Crawling
+       정치, 사회, 연예 분야의 뉴스를 크롤링하여 요약을 위한 라벨링을 함
+      
+      Presentation Scripts
+       약 30건의 대본을 수집하여 문단별로 요약을 위한 라벨링을 함 / Total instances: ~300
 
 #### Dependencies
 <pre><code>
