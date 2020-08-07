@@ -18,7 +18,7 @@ TEXT2PPTX
 
 
 #### examples
-![alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/.idea/examplepng.png)
+![Alt text](.idea/examplepng.png?raw=true "Title")
 
 #### Dataset collected for BERTsum finetuning
        Presentation Scripts
