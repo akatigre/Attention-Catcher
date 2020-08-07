@@ -25,7 +25,7 @@ TEXT2PPTX
        정치, 사회, 연예 분야의 뉴스를 크롤링하여 요약을 위한 라벨링을 함
       
       Presentation Scripts
-       약 40건의 대본을 수집하여 문단별로 요약을 위한 라벨링을 함 / Total instances: ~1500 
+       약 50건의 대본을 수집하여 문단별로 요약을 위한 라벨링을 함 / Total instances: ~1700 
 
 #### Dependencies
 <pre><code>
