@@ -18,7 +18,7 @@ TEXT2PPTX
 
 
 #### examples
-![alt text](https://github.com/yoonkim313/dataCampusProject-Team10/.idea/example of text2pptx.png)
+![alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/.idea/examplepng.png?raw=true)
 
 #### Dataset collected for BERTsum finetuning
        Presentation Scripts
