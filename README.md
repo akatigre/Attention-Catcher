@@ -17,7 +17,7 @@ TEXT2PPTX
 ### Interactive Web Page for Text2PPTX is coming soon!!
 
 
-#### examples
+#### Examples
 ![Alt text](.idea/examplepng.png?raw=true "Title")
 
 #### Dataset collected for BERTsum finetuning
