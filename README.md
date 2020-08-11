@@ -1,12 +1,9 @@
-TEXT2PPTX 
+A-Catcher
 =========
-**Tired of making PowerPoints? This is for you!**
+**ADHD 학생들에게 텍스트 자료에 대한 접근 기회의 평등을**
 ---------------------------------------------------
 
-      Text2PPTX is a service that analyzes your script for presentation and automatically maps it to powerpoint presentation of high quality
-      텍2피는 발표 대본을 분석하여 자동으로 높은 수준의 파워포인트 프레젠테이션으로 매핑해주는 서비스입니다.
-
-
+   <span style="color:blue">ADHD</span> 학생들의 _Attention_을 캐치해서 _A+_을 받도록 도와주는 서비스
 
       - 내용을 기반으로 하여 파워포인트의 스마트 아트와 도형으로 도식화
       - 발표 대본의 제목과 소제목을 자동으로 추출하여 텍스트를 파워포인트에 삽입
