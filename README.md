@@ -14,7 +14,7 @@ A-Catcher
 
 
 #### Examples
-![Alt text](.idea/examplepng.png?raw=true "Title")
+![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/a-catcher%20%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5.jpeg)
 
    
    
