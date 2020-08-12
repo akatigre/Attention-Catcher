@@ -14,7 +14,7 @@
 
 
 #### Examples
-![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5.jpeg)
+![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/example.png)
 
    
    
