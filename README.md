@@ -3,6 +3,9 @@
 **ADHD 학생들에게 텍스트 자료에 대한 접근 기회의 평등을** :loudspeaker:
 ---------------------------------------------------
 
+
+   *"Grab both of your Attention and A's with our A-Catcher!"*
+   
    ADHD 학생들의 *Attention*을 캐치해서 *A*를 받도록 도와주는 서비스
       
       **Highlight Text**
@@ -16,6 +19,6 @@
 #### Examples
 ![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/example.png)
 
-   
-   
-   
+      - We take various formats of files with text as an input: PDF, JPG, JPEG, TXT, etc...
+      - We provide a *highlighted image* of your original text and well-schematized *PPT slides* based on your text as an output
+      - One paragraph(or a body) of a text is mapped to each PPT slide
