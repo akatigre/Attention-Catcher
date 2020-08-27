@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
-            src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"
+            src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
             integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
             crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -192,27 +192,108 @@
                 <!--Image-->
                 <div class="row-eq-height">
                     <div class="col-md-12">
-                        <div id="P1" class="pop img-wrapper collapse in view overlay rounded z-depth-1-half mb-3">
-                            <img
-                                    src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png"
-                                    class="img-fluid"
-                                    alt="Sample post image">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
+                        <div id="P1" class="img-wrapper collapse in view overlay rounded z-depth-1-half mb-3">
+                            <a href="#" id="pop">
+                                <img id="imageresource"
+                                     src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png"
+                                     class="img-fluid"
+                                     alt="Sample post image">
                             </a>
-                        </div>
-                        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
-                             aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <button type="button" class="close" data-dismiss="modal"><span
-                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                                        </button>
-                                        <img src="" class="imagepreview" style="width: 100%;">
+                            <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button type="button" class="close" data-dismiss="modal"><span
+                                                    aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                            </button>
+                                            <img src="" class="imagepreview" style="width: 100%;">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <script type="text/javascript" src="../static/js/popup.js"></script>
+                            <body class="modal-open" style="padding-right: 16px;">
+                            <a href="#" class="pop">
+                                <img src="https://cdn.pixabay.com/photo/2018/07/31/22/08/lion-3576045_1280.jpg"
+                                     style="width: 400px; height: 264px;">
+                            </a>
+
+                            <a href="#" class="pop">
+                                <img src="http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg"
+                                     style="width: 400px; height: 264px;">
+                            </a>
+
+                            <a href="#" class="pop">
+                                <img src="https://cdn-images-1.medium.com/max/2600/1*694y5GwOWsqflOtu_4Lj-g.png"
+                                     style="width: 400px; height: 264px;">
+                            </a>
+
+
+                            <div class="modal fade in" id="imagemodal" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel" aria-hidden="false" style="display: block;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button type="button" class="close" data-dismiss="modal"><span
+                                                    aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                            </button>
+                                            <img src="http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg"
+                                                 class="imagepreview" style="width: 100%;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script type="text/javascript">//<![CDATA[
+
+
+                            $(function () {
+                                $('.pop').on('click', function () {
+                                    $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+                                    $('#imagemodal').modal('show');
+                                });
+                            });
+
+
+                            //]]></script>
+
+                            <script>
+                                // tell the embed parent frame the height of the content
+                                if (window.parent && window.parent.parent) {
+                                    window.parent.parent.postMessage(["resultsFrame", {
+                                        height: document.body.getBoundingClientRect().height,
+                                        slug: "4p57wx8r"
+                                    }], "*")
+                                }
+
+                                // always overwrite window.name, in case users try to set it manually
+                                window.name = "result"
+                            </script>
+
+                            <script>
+                                let allLines = []
+
+                                window.addEventListener("message", (message) => {
+                                    if (message.data.console) {
+                                        let insert = document.querySelector("#insert")
+                                        allLines.push(message.data.console.payload)
+                                        insert.innerHTML = allLines.join(";\r")
+
+                                        let result = eval.call(null, message.data.console.payload)
+                                        if (result !== undefined) {
+                                            console.log(result)
+                                        }
+                                    }
+                                })
+                            </script>
+
+
+                            <div class="modal-backdrop fade in"></div>
+                            </body>
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -298,26 +379,13 @@
                 <!--Image-->
                 <div class="row-eq-height">
                     <div class="col-md-12">
-                        <div id="P2" class="pop collapse in view overlay rounded z-depth-1-half mb-3">
+                        <div id="P2" class="collapse in view overlay rounded z-depth-1-half mb-3">
                             <img src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png"
                                  class="img-fluid"
                                  alt="Sample post image">
                             <a>
                                 <div class="mask rgba-white-slight"></div>
                             </a>
-                        </div>
-                        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
-                             aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <button type="button" class="close" data-dismiss="modal"><span
-                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                                        </button>
-                                        <img src="" class="imagepreview" style="width: 100%;">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -402,47 +470,27 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-5">
-                <hr>
-                <!--Image-->
-                <div class="row-eq-height">
-                    <div class="col-md-12">
-                        <div id="P3" class="pop collapse in view overlay rounded z-depth-1-half mb-3">
-                            <img src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png"
-                                 class="img-fluid"
-                                 alt="Sample post image">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
-                             aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <button type="button" class="close" data-dismiss="modal"><span
-                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                                        </button>
-                                        <img src="" class="imagepreview" style="width: 100%;">
-                                    </div>
-                                </div>
+                <div class="col-md-5">
+                    <hr>
+                    <!--Image-->
+                    <div class="row-eq-height">
+                        <div class="col-md-12">
+                            <div id="P3" class="collapse in view overlay rounded z-depth-1-half mb-3">
+                                <img src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png"
+                                     class="img-fluid"
+                                     alt="Sample post image">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    <!--Grid column-->
-    <!-- Creates the bootstrap modal where the image will appear -->
-    <script type="text/javascript">
-        $(function () {
-            $('.pop').on('click', function () {
-                $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-                $('#imagemodal').modal('show');
-            });
-        });
-    </script>
+        <!--Grid column-->
+        <!-- Creates the bootstrap modal where the image will appear -->
+
     </div>
 
 </main>
