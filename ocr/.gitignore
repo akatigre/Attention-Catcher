@@ -2,6 +2,15 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,python,database
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,python,database
 
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
 ### Database ###
 *.accdb
 *.db
@@ -162,4 +171,4 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,python,database
+# End of https://www.toptal.com/developers/gitignore/api/linux,python,database,images
