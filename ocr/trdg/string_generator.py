@@ -109,7 +109,7 @@ def create_strings_randomly(length, allow_variable, count, let, num, sym, lang):
         current_string = ""
         for _ in range(0, rnd.randint(1, length) if allow_variable else length):
             seq_len = rnd.randint(min_seq_len, max_seq_len)
-            current_string += "".join([rnd.choice(pool) for _ in range(seq_len)])
+            current_string += "".join([rnd.choice(당구) for _ in range(seq_len)])
             current_string += " "
         strings.append(current_string[:-1])
     return strings
@@ -121,28 +121,22 @@ def make_my_strings( count, lang_dict, en_dict):
     num += "0123456789"
     sym = ''
     sym += "!\"#$%&'()*+,-./:;?@[\\]^_`{|}~"
-    preposition = ['을','를','이','가','의','다','이다','에서']
+    preposition = ['은','는','을','를','이','가','의','다','이다','에서']
     for _ in range(0, count):
         current_string = ""
         current_string += lang_dict[rnd.randrange(dict_len)]
         rand = np.random.rand(1)
         if current_string[-1] != '다':
-            current_string += preposition[rnd.randint(0,len(preposition)-1)]
-        else:
             if rand >= 0.5:
+                current_string += preposition[rnd.randint(0,len(preposition)-1)]
+        else:
+            if rand >= 0.7:
                 current_string += '.'
-            elif rand < 0.01:
-                current_string += '?'
-        if rand >=0.9:
-            if rand >=0.95:
-                if current_string[-1] == '다':
-                    pass
-                else:
-                    current_string = current_string + rnd.choice(sym)
-            elif rand < 0.00001:
-                current_string
-            else :
-                current_string = rnd.choice(sym) + current_string
+            elif rand >= 0.65:
+                current_string += rnd.choice("','!','?'")
+            elif rand >= 0.6:
+                current_string = rnd.choice(num) + current_string
+            else:
+                pass
         strings.append(current_string)
     return strings
-    
