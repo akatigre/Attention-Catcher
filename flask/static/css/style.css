@@ -1,0 +1,9 @@
+.card-comments img {
+  width: 4rem; }
+@font-face {
+    font-family: 'Do Hyeon', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap");
+}
+   body {
+     font-family: 'Do Hyeon', sans-serif, 'Jua', sans-serif;
+   }

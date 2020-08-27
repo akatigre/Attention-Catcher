@@ -1,0 +1,11 @@
+// Your custom styles
+@font-face {
+    font-family: 'Do Hyeon', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+}
+
+html, body{
+    font-family: 'Do Hyeon', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
