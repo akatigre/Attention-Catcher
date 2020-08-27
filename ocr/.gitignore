@@ -9,6 +9,7 @@
 *.mdb
 *.pdb
 *.sqlite3
+*.json
 
 ### Linux ###
 *~
