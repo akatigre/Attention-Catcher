@@ -338,7 +338,7 @@ def main():
             sys.exit("Cannot open dict")
     else:
         lang_dict = load_dict(args.language)
-    with open('./dicts/en.txt', 'r', encoding='utf8', errors='ignore') as f:
+    with open('./trdg/dicts/en.txt', 'r', encoding='utf8', errors='ignore') as f:
               en_dict = [i for i in f.read().splitlines() if len(i) > 0]
     # Create font (path) list
     if args.font_dir:
