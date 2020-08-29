@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script
+            src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>A-Catcher</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../static/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet">
+    <style>
+        #loader {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 1;
+            width: 150px;
+            height: 150px;
+            margin: -75px 0 0 -75px;
+            border-radius: 50%;
+            border-top: 16px solid yellow;
+            border-right: 16px solid #FFD0F2;
+            border-bottom: 16px solid orange;
+            border-left: 16px solid pink;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .animate-bottom {
+            position: relative;
+            -webkit-animation-name: animatebottom;
+            -webkit-animation-duration: 1s;
+            animation-name: animatebottom;
+            animation-duration: 1s
+        }
+
+        @-webkit-keyframes animatebottom {
+            from {
+                bottom: -100px;
+                opacity: 0
+            }
+            to {
+                bottom: 0px;
+                opacity: 1
+            }
+        }
+
+        @keyframes animatebottom {
+            from {
+                bottom: -100px;
+                opacity: 0
+            }
+            to {
+                bottom: 0;
+                opacity: 1
+            }
+        }
+
+        #myDiv {
+            display: none;
+            text-align: center;
+        }
+
+        .tooltip-inner {
+            background-color: #3f2363;
+            max-width: 350px;
+            width: 350px;
+        }
+
+        [data-placement="bottom"] + .tooltip > .tooltip-arrow {
+            border-bottom-color: #3f2363;
+        }
+    </style>
+</head>
+<body>
+<h2 style="top: 35%; left: 47%; text-align: center; font-family: 'Do Hyeon',sans-serif">Loading...</h2>
+</body>
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>s
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<!--Main Navigation-->
+<header>
+
+    <!-- Navbar -->
+    <nav id="scroll" class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container" style="font-family: 'Do Hyeon',sans-serif">
+            <!-- Brand -->
+
+            <a class="navbar-brand waves-effect" href="/">
+                <img src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/book.png"
+                     width="30" height="30"
+                     class="d-inline-block align-top" alt="">
+                <strong class="orange-text">A-Catcher</strong>
+            </a>
+            <!-- Collapse -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="/" target="_blank">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="/#AboutACatcher" target="_blank">About
+                            A-Catcher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect"
+                           href="/#Example" target="_blank"
+                        >Example</a>
+                    </li>
+                </ul>
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://github.com/yoonkim313/dataCampusProject-Team10"
+                           class="nav-link border border-light rounded waves-effect"
+                           target="_blank">
+                            <i class="fab fa-github mr-2"></i>GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+</header>
+
+<!--Main Navigation-->
+
+<!--Main layout-->
+<main class="mt-5 pt-5">
+    <div class="container">
+        <section class="wow fadeIn">
+
+            <!--Section heading-->
+            <h2 class="h1 text-center my-5 font-weight-bold" style="font-family: 'Do Hyeon',sans-serif">
+                <img src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/checkmark.jpeg"
+                     width="30" height="40"
+                     class="d-inline-block align-top" alt="">
+                <mark>A-Catching Results!</mark>
+            </h2>
+        </section>
+
+
+        <!--Grid row-->
+        <div class="row text-left" style="font-family: 'Jua',sans-serif; font-size: large">

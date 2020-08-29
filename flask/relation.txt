@@ -1,0 +1,11 @@
+
+
+<a data-toggle="tooltip" data-placement="top" title="meaning">말 뜻</a><br>
+<a data-toggle="tooltip" data-placement="top" title="meaning">말 뜻</a><br>
+
+<a data-toggle="tooltip" data-placement="top" title="reason">이유</a><br>
+
+<a data-toggle="tooltip" data-placement="top" title="objective">자연권 이론 등 문제</a><br>
+<a data-toggle="tooltip" data-placement="top" title="objective">자연권 이론 등 문제</a><br>
+
+<a data-toggle="tooltip" data-placement="top" title="purpose --> objective">대우 위 영역 성질 로서 인격</a><br>

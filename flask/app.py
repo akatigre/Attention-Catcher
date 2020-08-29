@@ -4,7 +4,6 @@ from flask_admin import Admin
 from flask_dropzone import Dropzone  # drop box
 import os
 from pdf2image import convert_from_path
-
 app = Flask(__name__)
 app.debug = True
 
@@ -34,12 +33,50 @@ def upload():
 ##############################################################################
 
 
+with open("result.txt", 'r', encoding="UTF-8") as file:
+    string = file.readlines()
+with open("relation.txt", 'r', encoding="UTF-8") as file:
+    relation = file.read()
+relation = [i for i in relation.split('\n\n') if i]
+with open("templates/result_1.html", "r", encoding="UTF-8") as file:
+    result_1 = file.read()
+with open("templates/result_1_1.html", "r", encoding="UTF-8") as file:
+    result_1_1 = file.read()
+with open("templates/result_1_2.html", "r", encoding="UTF-8") as file:
+    result_1_2 = file.read()
+with open("templates/result_1_3.html", "r", encoding="UTF-8") as file:
+    result_1_3 = file.read()
+with open("templates/result_1_4.html", "r", encoding="UTF-8") as file:
+    result_1_4 = file.read()
+with open("templates/result_1_5.html", "r", encoding="UTF-8") as file:
+    result_1_5 = file.read()
+# result_1 += ("<div class='col-md-7'<hr><div class='row-eq-height'><div class='col-md-12' style='line-height: 40px'><p class='dark-grey-text'><mark><strong>Paragraph" + str(1) + "</strong></mark></p>")
+# print(result_1)
+#for i in range(len(string)):
+
+
+for i in range(1, len(string)):
+    result_1 += ("<div class='col-md-7'><hr><div class='row-eq-height'><div class='col-md-12' style='line-height: 40px'><p class='dark-grey-text'><mark><strong>Paragraph " + str(i) + "</strong></mark></p><a style='line-height: 40px'>")
+    result_1 += string[i] # paragraph
+    result_1 += result_1_1
+    result_1 += ("<img src='" + "https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png" + "' class='img-fluid' alt='Sample post image'>")  # ppt slide picture
+    # result_1 += ("<img src='" + picture[i+1] + "' class='img-fluid' alt='Sample post image'>")
+    result_1 += result_1_2
+    result_1 += ("<button type='button' class='btn-outline-deep-orange' data-toggle='modal' data-target='#P" + str(i) + "'>Relation</button><div class='modal' id='P" + str(i) + "'>")  # relation tagging modal
+    result_1 += result_1_3
+    result_1 += relation[i-1]  # relation tagging input
+    result_1 += result_1_4
+result = result_1 + result_1_5
+with open("templates/final_result.html", "w", encoding="UTF-8") as file:
+    file.write(result)
+
+
 @app.route("/result", methods=['GET', 'POST'])
 def upload2():
     if request.method == 'POST':
         f = request.files.get('file')
         f.save(os.path.join(upload_dir, f.filename))
-    return render_template('result.html')
+    return render_template('final_result.html')
 
 
 # def main():

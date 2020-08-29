@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script
+            src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>A-Catcher</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../static/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet">
+    <style>
+        .tooltip-inner {
+            background-color: #3f2363;
+        }
+
+        [data-placement="bottom"] + .tooltip > .tooltip-arrow {
+            border-bottom-color: #3f2363;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--Main Navigation-->
+<header>
+
+    <!-- Navbar -->
+    <nav id="scroll" class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container" style="font-family: 'Do Hyeon',sans-serif">
+            <!-- Brand -->
+
+            <a class="navbar-brand waves-effect" href="/">
+                <img src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/book.png"
+                     width="30" height="30"
+                     class="d-inline-block align-top" alt="">
+                <strong class="orange-text">A-Catcher</strong>
+            </a>
+            <!-- Collapse -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="/" target="_blank">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="/#AboutACatcher" target="_blank">About
+                            A-Catcher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect"
+                           href="/#Example" target="_blank"
+                        >Example</a>
+                    </li>
+                </ul>
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://github.com/yoonkim313/dataCampusProject-Team10"
+                           class="nav-link border border-light rounded waves-effect"
+                           target="_blank">
+                            <i class="fab fa-github mr-2"></i>GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+</header>
+
+<!--Main Navigation-->
+
+<!--Main layout-->
+<main class="mt-5 pt-5">
+    <div class="container">
+        <section class="wow fadeIn">
+
+            <!--Section heading-->
+            <h2 class="h1 text-center my-5 font-weight-bold" style="font-family: 'Do Hyeon',sans-serif">
+                <img src="https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/checkmark.jpeg"
+                     width="30" height="40"
+                     class="d-inline-block align-top" alt="">
+                <mark>A-Catching Results!</mark>
+            </h2>
+        </section>
+
+
+        <!--Grid row-->
+        <div class="row text-left" style="font-family: 'Jua',sans-serif; font-size: large"><div class='col-md-7'><hr><div class='row-eq-height'><div class='col-md-12' style='line-height: 40px'><p class='dark-grey-text'><mark><strong>Paragraph 1</strong></mark></p><a style='line-height: 40px'>평등은 자유와 더불어 근대 사회의 핵심 이념으로 자리 잡고있다.<mark style='background-color:#FFD0F2'> 인간</mark>은 가령 인종이나 성별과 상관없이 누구나 <mark style='background-color:#FFD0F2'> 평등</mark>하다고 생각한다.<u data-toggle='tooltip' data-placement='top' title= '말 뜻' style='text-decoration:underline; text-decoration-color:#906fa8; font-weight: bold; text-decoration-style: wavy'>모든 <mark style='background-color:#FFD0F2'> 인간은  평등</mark>하다고 말하는데, 이 말은 무슨 뜻일까?</u><mark style='background-color:#F9D877'>그리고</mark> 그 <mark style='background-color:#FFD0F2'> 근거는  무엇</mark>인가?<u data-toggle='tooltip' data-placement='top' title= '말 뜻' style='text-decoration:underline; text-decoration-color:#906fa8; font-weight: bold; text-decoration-style: wavy'>일단 이 말을 모든 <mark style='background-color:#FFD0F2'> 인간</mark>을 모든 측면에서 똑같이 <mark style='background-color:#FFD0F2'> 대우</mark>하는 절대적 <mark style='background-color:#FFD0F2'> 평등</mark>으로 생각하는 이는 없다.</u><mark style='background-color:#FFD0F2'> 인간</mark>은 저마다 다르게 가지고 태어난 <mark style='background-color:#FFD0F2'> 능력</mark>과 소질을 똑같게 만들 수 없기 때문이다.절대적 <mark style='background-color:#FFD0F2'> 평등</mark>은 개인의 개성이냐 자율성 등의 가치와 충돌하기도 한다.
+</a>
+<script type="text/javascript">
+                            $(function () {
+                                $('[data-toggle="tooltip"]').tooltip()
+                            });
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <hr>
+                <!--Image-->
+                <div class="row-eq-height">
+                    <div class="col-md-12">
+                        <div class="pop img-wrapper in view overlay rounded z-depth-1-half mb-3"><img src='https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png' class='img-fluid' alt='Sample post image'><a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+
+                        </div>
+                        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
+                             aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <img src="" class="imagepreview" style="width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><button type='button' class='btn-outline-deep-orange' data-toggle='modal' data-target='#P1'>Relation</button><div class='modal' id='P1'>                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Relation Tagging</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body"><a data-toggle="tooltip" data-placement="top" title="meaning">말 뜻</a><br>
+<a data-toggle="tooltip" data-placement="top" title="meaning">말 뜻</a><br></div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><div class='col-md-7'><hr><div class='row-eq-height'><div class='col-md-12' style='line-height: 40px'><p class='dark-grey-text'><mark><strong>Paragraph 2</strong></mark></p><a style='line-height: 40px'><u data-toggle='tooltip' data-placement='top' title= '이유' style='text-decoration:underline; text-decoration-color:#906fa8; font-weight: bold; text-decoration-style: wavy'>평등에 대한 요구는 모든 <mark style='background-color:#FFD0F2'> 불평등</mark>을 악으로 보는 <mark style='background-color:#FFD0F2'> 것</mark>이 아니라 충분한 <mark style='background-color:#FFD0F2'> 이유가  제시</mark>되지 않은 <mark style='background-color:#FFD0F2'> 불평등</mark>을 제거하는 데 목표를 두고 있다.</u><mark style='background-color:#FFD0F2'> 이유</mark> 없는 차별 금지 라는 조건적 <mark style='background-color:#FFD0F2'> 평등</mark> 원칙은 차별 <mark style='background-color:#FFD0F2'> 대우</mark>를 할 때는 <mark style='background-color:#FFD0F2'> 이유를  제시할  것</mark>을 요구하고 있다.이것은 어떤 <mark style='background-color:#FFD0F2'> 이유가  제시</mark>된다면 특정한 부류에 속하는 사람들에게는 <mark style='background-color:#FFD0F2'> 평등한  대우</mark>를, 그 부류에 속하지 않는 사람들에게는 차별적 <mark style='background-color:#FFD0F2'> 대우를 하는  것</mark>을 허용한다.<mark style='background-color:#F9D877'> 그렇다면</mark> 사람들을 특정한 부류로 구분하는 기준은 <mark style='background-color:#FFD0F2'> 무엇</mark>인가?이것은 <mark style='background-color:#F9D877'> 바로</mark> <mark style='background-color:#FFD0F2'> 평등의  근거</mark>에 대한 물음이다.
+</a>
+<script type="text/javascript">
+                            $(function () {
+                                $('[data-toggle="tooltip"]').tooltip()
+                            });
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <hr>
+                <!--Image-->
+                <div class="row-eq-height">
+                    <div class="col-md-12">
+                        <div class="pop img-wrapper in view overlay rounded z-depth-1-half mb-3"><img src='https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png' class='img-fluid' alt='Sample post image'><a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+
+                        </div>
+                        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
+                             aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <img src="" class="imagepreview" style="width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><button type='button' class='btn-outline-deep-orange' data-toggle='modal' data-target='#P2'>Relation</button><div class='modal' id='P2'>                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Relation Tagging</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body"><a data-toggle="tooltip" data-placement="top" title="reason">이유</a><br></div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><div class='col-md-7'><hr><div class='row-eq-height'><div class='col-md-12' style='line-height: 40px'><p class='dark-grey-text'><mark><strong>Paragraph 3</strong></mark></p><a style='line-height: 40px'>근대의 여러 인권 선언에 나타난 <mark style='background-color:#FFD0F2'> 평등</mark> 개념은 개인들 사이의 <mark style='background-color:#FFD0F2'> 평등</mark>성을 타고난 <mark style='background-color:#FFD0F2'> 자연</mark>적 권리로 간주하였다.<u data-toggle='tooltip' data-placement='top' title= '자연권 이론 등 문제' style='text-decoration:underline; text-decoration-color:#906fa8; font-weight: bold; text-decoration-style: wavy'><mark style='background-color:#F9D877'> 하지만</mark> 이러한 <mark style='background-color:#FFD0F2'> 자연</mark>권 이론은 <mark style='background-color:#FFD0F2'> 무엇이  자연</mark>적 권리이고 권리의 존재가 자명한 <mark style='background-color:#FFD0F2'> 이유가  무엇</mark>인지 등의 문제에 부딪히게 된다.</u><mark style='background-color:#F9D877'> 그래서</mark> <mark style='background-color:#FFD0F2'> 롤스</mark>는 기존의 <mark style='background-color:#FFD0F2'> 자연</mark>권 사상에 의존하지 않는 방시으로 <mark style='background-color:#FFD0F2'> 인간  평등의  근거</mark>를 마런하려고 한다.그는 어떤 <mark style='background-color:#FFD0F2'> 규칙</mark>이 공평하고 일관되게 운영되며, 그 <mark style='background-color:#FFD0F2'> 규칙</mark>에 따라 유사한 경우는 유사하게 취급된다면 형식적 <mark style='background-color:#FFD0F2'> 정의</mark>는 실현된다고 본다.<u data-toggle='tooltip' data-placement='top' title= '자연권 이론 등 문제' style='text-decoration:underline; text-decoration-color:#906fa8; font-weight: bold; text-decoration-style: wavy'><mark style='background-color:#F9D877'> 하지만</mark> <mark style='background-color:#FFD0F2'> 롤스</mark>는 형식적 <mark style='background-color:#FFD0F2'> 정의에 따라  규칙</mark>을 준수하는 <mark style='background-color:#FFD0F2'> 것만으로는  정의</mark>를 담보할 수 없다고 생각한다.</u>그 <mark style='background-color:#FFD0F2'> 규칙</mark>이 더 높은 <mark style='background-color:#FFD0F2'> 도덕</mark>적 권위를 지닌 다른 이념과 충돌할 수 었기에, 실질적 <mark style='background-color:#FFD0F2'> 정의</mark>가 보장되기 위해서는 <mark style='background-color:#FFD0F2'> 규칙</mark>의 내용이 중요한 <mark style='background-color:#FFD0F2'> 것</mark>이다.
+</a>
+<script type="text/javascript">
+                            $(function () {
+                                $('[data-toggle="tooltip"]').tooltip()
+                            });
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <hr>
+                <!--Image-->
+                <div class="row-eq-height">
+                    <div class="col-md-12">
+                        <div class="pop img-wrapper in view overlay rounded z-depth-1-half mb-3"><img src='https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png' class='img-fluid' alt='Sample post image'><a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+
+                        </div>
+                        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
+                             aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <img src="" class="imagepreview" style="width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><button type='button' class='btn-outline-deep-orange' data-toggle='modal' data-target='#P3'>Relation</button><div class='modal' id='P3'>                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Relation Tagging</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body"><a data-toggle="tooltip" data-placement="top" title="objective">자연권 이론 등 문제</a><br>
+<a data-toggle="tooltip" data-placement="top" title="objective">자연권 이론 등 문제</a><br></div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><div class='col-md-7'><hr><div class='row-eq-height'><div class='col-md-12' style='line-height: 40px'><p class='dark-grey-text'><mark><strong>Paragraph 4</strong></mark></p><a style='line-height: 40px'>롤스는 <mark style='background-color:#FFD0F2'> 인간  평등의  근거</mark>를 설명하면서 영역 <mark style='background-color:#FFD0F2'> 성질</mark> (range property) 개념을 도입한다.<mark style='background-color:#F9D877'> 예를 들어</mark> 어떤 원의 내부에 있는 점들은 그 위치가 서로 다르지만 원의 내부에 있다는 점에서 동일한 영역 <mark style='background-color:#FFD0F2'> 성질</mark>을 갖는다.<mark style='background-color:#F9D877'> 반면에</mark> 원의 내부에 있는 점과 원의 외부에 있는 점은 원의 경계선을 기준으로 서로 다른 영역 <mark style='background-color:#FFD0F2'> 성질</mark>을 갖는다.<u data-toggle='tooltip' data-placement='top' title= '대우 위 영역 성질 로서 인격' style='text-decoration:underline; text-decoration-color:#906fa8; font-weight: bold; text-decoration-style: wavy'>그는 <mark style='background-color:#FFD0F2'> 평등한  대우</mark>를 받기 위한 영역 <mark style='background-color:#FFD0F2'> 성질로서   도덕적  인격 을  제시한다.</u>도덕적  인격이란  도덕</mark>적 호소가 가능하고 그런 호소에 관심을 가지는 <mark style='background-color:#FFD0F2'> 능력</mark>이 있다는 <mark style='background-color:#FFD0F2'> 것</mark>인데, 이 <mark style='background-color:#FFD0F2'> 능력</mark>을 최소치만 갖고 있다면 <mark style='background-color:#FFD0F2'> 평등한  대우</mark>에 대한 권한을 갖게 된다.<mark style='background-color:#FFD0F2'> 도덕적  인격</mark>이라고 해서 <mark style='background-color:#FFD0F2'> 도덕</mark>적으로 훌륭하다는 뜻이 아니라 <mark style='background-color:#FFD0F2'> 도덕</mark>과 무관하다는 말과 대비되는 뜻으로 쓰고 있다.<mark style='background-color:#F9D877'> 그런데</mark> 어린 아이는 <mark style='background-color:#FFD0F2'> 인격</mark>체로서의 최소한의 기준을 충족하고 있는지가 논란이 될 수 있다.<mark style='background-color:#F9D877'> 이에 대해</mark> <mark style='background-color:#FFD0F2'> 롤스는  도덕적  인격</mark>을 규정하는 최소한의 요구 조건은 잠재적 <mark style='background-color:#FFD0F2'> 능력</mark>이지 그것의 실현 여부가 아니기에 어린 아이도 <mark style='background-color:#FFD0F2'> 평등</mark>한 존재라고 말한다.</a>
+<script type="text/javascript">
+                            $(function () {
+                                $('[data-toggle="tooltip"]').tooltip()
+                            });
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <hr>
+                <!--Image-->
+                <div class="row-eq-height">
+                    <div class="col-md-12">
+                        <div class="pop img-wrapper in view overlay rounded z-depth-1-half mb-3"><img src='https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/flask/exslide1.png' class='img-fluid' alt='Sample post image'><a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+
+                        </div>
+                        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
+                             aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <img src="" class="imagepreview" style="width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><button type='button' class='btn-outline-deep-orange' data-toggle='modal' data-target='#P4'>Relation</button><div class='modal' id='P4'>                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Relation Tagging</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body"><a data-toggle="tooltip" data-placement="top" title="purpose --> objective">대우 위 영역 성질 로서 인격</a><br></div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div></div>
+        <!--Grid column-->
+        <!-- Creates the bootstrap modal where the image will appear -->
+        <script type="text/javascript">
+            $(function () {
+                $('.pop').on('click', function () {
+                    $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+                    $('#imagemodal').modal('show');
+                });
+            });
+        </script>
+    </div>
+
+</main>
+<!--Footer-->
+<footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+
+        <a href="https://github.com/yoonkim313/dataCampusProject-Team10" target="_blank">
+            <i class="fab fa-github mr-3"> Visit our Github! </i>
+        </a>
+
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+        © 2020 Copyright:
+        <a target="_blank"> ACatcher.com </a>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="../static/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../static/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="../static/js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+</script>
+</body>
+
+</html>
