@@ -39,6 +39,7 @@ __pycache__/
 *.so
 
 My Project-a3f9a30ceabf.json
+img_to_txt.ipynb
 # Distribution / packaging
 .Python
 build/
