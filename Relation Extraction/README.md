@@ -7,5 +7,6 @@ Korean FrameNET을 활용하여 단어들의 다의성과 용례를 고려한 Re
   🔹 Korean FrameNET
     
    🔻 [한국어 FrameNet 의미역 사전 링크](http://framenet.kaist.ac.kr/)
+   
    🔻  총 807개의 frame index가 영어로 제공
             ex.) Activity, Inclusion, Manner, Losing, Purpose, Entity ...
