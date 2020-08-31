@@ -12,7 +12,7 @@ annotations = pd.DataFrame(data['annotations'])
 annotations = annotations.set_index('id').drop(columns='image_id')
 data = pd.merge(images, annotations ,left_index=True, right_index=True,how='left')
 ```
-![data](images/data.png)
+![data](images/data.PNG)
 
 - create lmdb file
 ```python
