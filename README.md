@@ -4,9 +4,7 @@
 ---------------------------------------------------
 
 
-#### *"Grab both Attention and A + with our A Catcher!"*
-   
-###### ADHD 학생들의 *Attention*을 캐치해서 *A*를 받도록 도와주는 서비스
+#### *"Grab both Attention and A + with our A Catcher!"*  ADHD 학생들의 *Attention*을 캐치해서 *A*를 받도록 도와주는 서비스
       
    **Highlight Text**
       - 주의 집중력이 약한 사람들도 쉽게 줄글의 중심내용과 단어 그리고 연결고리를 파악할 수 있도록 다양한 도형과 색상으로 텍스트를 강조
