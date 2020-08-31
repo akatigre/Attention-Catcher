@@ -82,7 +82,7 @@ if __name__ == '__main__':
 
 ### - Home Page
 
-![home_page](images/home_page.png)
+![home_page](flask.png)
 
 ```html
 <!DOCTYPE html>
