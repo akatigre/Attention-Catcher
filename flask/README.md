@@ -82,7 +82,7 @@ if __name__ == '__main__':
 
 ### - Home Page
 
-![home_page](.\images\home_page.png)
+![home_page](.\images\home_page.PNG)
 
 ```html
 <!DOCTYPE html>
@@ -360,7 +360,7 @@ if __name__ == '__main__':
 ```
 ### - Result Page(example 1)
 
-![result1](.\images\result1.png)
+![result1](.\images\result1.PNG)
 
 ```html
 <!DOCTYPE html>
