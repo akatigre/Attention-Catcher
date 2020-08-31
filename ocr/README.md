@@ -12,7 +12,7 @@ annotations = pd.DataFrame(data['annotations'])
 annotations = annotations.set_index('id').drop(columns='image_id')
 data = pd.merge(images, annotations ,left_index=True, right_index=True,how='left')
 ```
-![data](images/data.png)
+![data](images/data.PNG)
 
 - create lmdb file
 ```python
@@ -176,4 +176,10 @@ output = !CUDA_VISIBLE_DEVICES=0 python3 ./deep-text-recognition/text_recognitio
 --Prediction Attn \
 --image_folder ./test \
 --saved_model ./saved_model/best_accuracy.pth;
+<<<<<<< HEAD
    ```
+=======
+   ```
+=======
+### Optical Character Recognition
+>>>>>>> 82bed04080f4f9284ddd67123f595fdbde56ee29
