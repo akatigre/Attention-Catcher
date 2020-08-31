@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# OCR
+# Optical Character Recognition(OCR)
 ---
 
 ## 1. Preprocessing
@@ -180,7 +179,3 @@ output = !CUDA_VISIBLE_DEVICES=0 python3 ./deep-text-recognition/text_recognitio
    ```
 =======
 ### Optical Character Recognition
-------------------------------------------------
-
-  *이미지의 형태로 업로드되는 인풋을 자연어처리를 하기 위해 텍스트 형식으로 바꾸는 과정을 구현하였습니다*
->>>>>>> f8835be57e52aee59ac740e938c48a22e8f99fda
