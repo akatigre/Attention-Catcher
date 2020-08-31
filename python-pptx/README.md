@@ -1,5 +1,5 @@
 # Python PPTX
-![slide1](images\slide1.PNG)
+![slide1](images/slide1.PNG)
 ```python
 from pptx import Presentation
 from pptx.util import Inches
