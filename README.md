@@ -17,8 +17,17 @@
 
 
 #### Examples
-![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/example.png)
 
-      - We take various formats of files with text as an input: PDF, JPG, JPEG, TXT, etc...
-      - We provide a *highlighted image* of your original text and well-schematized *PPT slides* based on your text as an output
-      - One paragraph(or a body) of a text is mapped to each PPT slide
+![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/ServiceExample.png)
+--------------------------------------------------------------------------------------------------
+
+   ###### ➊ OCR (Optical Character Recognition)
+            pdf, jpeg, jpg, txt 등의 다양한 파일 입력 형식을 지원합니다. OCR을 통해 이미지에서 글자를 찾아내고 이 텍스트 파일을 기반으로 서비스를 제공합니다.
+      
+   ###### ➋ NLP (Relation Extraction & Extractive Summarization & Keyword Extraction)
+            서비스의 핵심분야로써 본래의 줄글에서 단락별 중심문장, 중요한 단어들이 포함된 구절들, 그리고 한 문장안에서 단어들의 관계성을 정리하여 읽기 쉬운 형식으로 가공된 텍스트를 지원합니다.
+            + Text2PPTX : 파워포인트의 XML 코드 형식을 분석하여 제목과 목차 그리고 관계형 도형으로 텍스트가 매핑되도록 모듈을 구축하였습니다.
+      
+   ###### ➌ Web Interface with python-based FLASK
+            플래스크 기반의 웹 서버를 구축하여 사용자가 원하는 형식의 파일을 업로드하면 Graphical User Interface를 통해 서비스를 사용할 수 있도록 만들었습니다.
+     
