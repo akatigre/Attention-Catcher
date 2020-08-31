@@ -177,5 +177,3 @@ output = !CUDA_VISIBLE_DEVICES=0 python3 ./deep-text-recognition/text_recognitio
 --image_folder ./test \
 --saved_model ./saved_model/best_accuracy.pth;
    ```
-=======
-### Optical Character Recognition
