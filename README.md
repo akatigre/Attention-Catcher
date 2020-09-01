@@ -19,6 +19,12 @@
 ![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/ServiceExample.png)
 --------------------------------------------------------------------------------------------------
 
+### Structure
+========================================
+![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/how.png)
+---------------------------------------------------------------------------------------------------
+
+
    ###### ➊ OCR (Optical Character Recognition)
             pdf, jpeg, jpg, txt 등의 다양한 파일 입력 형식을 지원합니다. OCR을 통해 이미지에서 글자를 찾아내고 이 텍스트 파일을 기반으로 서비스를 제공합니다.
       
