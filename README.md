@@ -15,12 +15,12 @@
 
 
 ### Examples
-========================================
+
 ![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/ServiceExample.png)
 --------------------------------------------------------------------------------------------------
 
 ### Structure
-========================================
+
 ![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/how.png)
 ---------------------------------------------------------------------------------------------------
 
