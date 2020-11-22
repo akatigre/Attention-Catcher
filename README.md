@@ -24,6 +24,7 @@
 ### Examples
 
 ![Alt text](https://github.com/yoonkim313/dataCampusProject-Team10/blob/master/ServiceExample.png)
+![Alt text](https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/example2.png)
 --------------------------------------------------------------------------------------------------
 
 ### Structure
