@@ -42,4 +42,7 @@
       
    ###### ➌ Web Interface with python-based FLASK
             플래스크 기반의 웹 서버를 구축하여 사용자가 원하는 형식의 파일을 업로드하면 Graphical User Interface를 통해 서비스를 사용할 수 있도록 만들었습니다.
+
+### Main page           
+![Alt text](https://raw.githubusercontent.com/yoonkim313/dataCampusProject-Team10/master/main.png)
      
