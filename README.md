@@ -3,13 +3,13 @@
 
 **한국데이터산업협회 회장상 수상작**
 
-**집중력이 부족한 사람들에게 텍스트 자료에 대한 빠른 접근과 이해를** :loudspeaker:
+**복잡한 한국어 텍스트를 읽기 쉬운 형태로 변환해주는 자연어처리 서비스** :loudspeaker:
 ---------------------------------------------------
 
 
-*"Grab both Attention and A + with our A Catcher!"*  
+*"Grab both Attention and Become an Ace with our A Catcher!"*  
      
-*Attention*을 캐치해서 *A*를 받도록 도와주는 자연어처리 서비스
+*Attention*을 캐치해서 *Ace*가 되도록 도와주는 자연어처리 서비스
       
    **Highlight & Underline & POPup Text**
    
